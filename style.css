@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    color: #ffffff;
+    background-image: url(img/azul.jpg);
+}
+
+h2{
+    color: rgb(255, 103, 2);
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: rgb(145,56,219);
+    background: linear-gradient(205deg, rgba(146, 56, 219, 0.13) 100%, rgba(17,57,208,1) 100%);
+    color: #fff;
+    margin-bottom: 60px;
+        
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background: rgb(14,56,78);
+background: radial-gradient(circle, rgba(14,56,78,1) 0%, rgba(14,56,78,0.5186449579831933) 0%);
+    margin-bottom: 60px;
+    margin: 100px;
+}
+
+.fotos-equipo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.fotos-equipo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 30px;
+    background-color: rgb(255, 60, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8117c7;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    color:   rgb(255, 60, 0);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.7455357142857143) 34%, rgba(195,88,15,1) 82%);
+    color: #fff;
+}
